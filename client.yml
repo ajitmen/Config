@@ -1,3 +1,7 @@
-name:
-	fname:AJIT
-	lname:MENON
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ajitmen/Config
+          basedir: target/config
